@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "699155122336",
+    "project_id": "reminder-ff6bb",
+    "storage_bucket": "reminder-ff6bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699155122336:android:f54be86ac685df16de21c5",
+        "android_client_info": {
+          "package_name": "com.abrar.reminder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699155122336-uveijtbk52eo7mfitahqcphsh38900rs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abrar.reminder",
+            "certificate_hash": "f88cf64efd2476091947555aa6530702165247c4"
+          }
+        },
+        {
+          "client_id": "699155122336-q1l023bli7soa6r3sdt6tlv807kkepuj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTOE669jh_yS2RrcW8E8eP_7ahHhMAYts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699155122336-q1l023bli7soa6r3sdt6tlv807kkepuj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
