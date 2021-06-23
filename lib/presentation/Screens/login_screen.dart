@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:reminder/ui/Widgets/button.dart';
-import 'package:reminder/ui/Widgets/inputField.dart';
+import 'package:reminder/presentation/Widgets/button.dart';
+import 'package:reminder/presentation/Widgets/inputField.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);
