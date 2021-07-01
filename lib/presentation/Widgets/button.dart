@@ -12,7 +12,7 @@ class Button extends StatelessWidget {
 
   final String text;
   final Color color, borderColor, textColor;
-  final Function onPress;
+  final GestureTapCallback onPress;
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +21,7 @@ class Button extends StatelessWidget {
       width: size.width * 0.6,
       child: TextButton(
           clipBehavior: Clip.antiAliasWithSaveLayer,
-          onPressed: onPress(),
+          onPressed: onPress,
           style: TextButton.styleFrom(
               backgroundColor: color,
               side: BorderSide(color: borderColor, width: 0.8),

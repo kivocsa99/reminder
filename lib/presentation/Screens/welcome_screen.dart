@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:reminder/common.dart';
+import 'package:reminder/presentation/Screens/login_screen.dart';
+import 'package:reminder/presentation/Screens/signup_screen.dart';
 import 'package:reminder/presentation/Widgets/button.dart';
 
 class WelcomeScreen extends StatefulWidget {
@@ -33,12 +36,14 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
         ),
         Button(
             text: "LOGIN",
-            onPress:
-                () {}), //Navigator.of(context).pushReplacementNamed('login')),
+            onPress: () {
+              changescreen(context, LoginScreen());
+            }), //Navigator.of(context).pushReplacementNamed('login')),
         Button(
           text: "SINGUP",
-          onPress:
-              () {}, //Navigator.of(context).pushReplacementNamed('signup')),
+          onPress: () {
+            changescreen(context, SignupScreen());
+          }, //Navigator.of(context).pushReplacementNamed('signup')),
           color: Colors.white,
           textColor: Colors.blue,
         ),

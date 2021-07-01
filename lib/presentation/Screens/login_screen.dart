@@ -50,7 +50,7 @@ class LoginScreen extends HookWidget {
                   final result = await context.read(signInWithEmailAndPasswordUseCaseProvider).execute(SignInWithEmailAndPasswordUseCaseInput(
                     email: _email.text,password: _pass.text
                   ));
-                  result.fold((l) => , (r) => null)
+                  result.fold((failure) => print(failure.toString()) , (r) => print("sucsses"));
                 }
               }),
             ],
